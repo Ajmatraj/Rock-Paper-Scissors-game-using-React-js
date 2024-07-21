@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+/* src/App.css */
+/* src/App.css */
+
+.game {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.choices button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.result, .score {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.win {
+  color: green;
+}
+
+.lose {
+  color: red;
+}
+
+.draw {
+  color: gray;
+}
